@@ -1,0 +1,31 @@
+/* Write your code here. */
+@media (max-width: 576px) {
+  .thumb-image {
+    opacity: 0.5;
+  }
+  .list-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .thumb {
+    height: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .thumb-image {
+    opacity: 0.5;
+  }
+  .list-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .thumb {
+    height: 80px;
+  }
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}

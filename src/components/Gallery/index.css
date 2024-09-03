@@ -1,0 +1,46 @@
+/* Write your code here. */
+@media (max-width: 576px) {
+  .image {
+    height: 300px;
+  }
+  .bg-container {
+    padding: 50px;
+  }
+  .un-orderd-list-container {
+    list-style-type: none;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 0px;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1199px) {
+  .image {
+    height: 100vh;
+  }
+}
+@media (max-width: 576px) {
+  .image {
+    height: 30vh;
+  }
+}
+@media (min-width: 991px) {
+  .image {
+    height: 60vh;
+  }
+}
+@media (min-width: 767px) {
+  .image {
+    height: 40vh;
+  }
+}
+.bg-container {
+  padding: 50px;
+}
+.un-orderd-list-container {
+  list-style-type: none;
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
